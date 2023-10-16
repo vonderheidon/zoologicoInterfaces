@@ -11,7 +11,6 @@ public class Main {
     public static void main(String[] args) {
 
         Papagaio papaGaio = new Papagaio();
-        
         papaGaio.falar();
         papaGaio.voar();
         papaGaio.porOvo();
@@ -23,6 +22,7 @@ public class Main {
         pinguim.porOvo(5);
 
         Ornitorrinco ornitorrinco = new Ornitorrinco();
+        ornitorrinco.porOvo(3);
 
     }
 }
