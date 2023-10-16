@@ -5,6 +5,9 @@ import br.com.cz.zoologico.contract.IComportamentoPorOvos;
 
 public class Pinguim extends Ave implements IComportamentoAquatico {
 
+    public Pinguim() {
+
+    }
     @Override
     public void nadar() {
         System.out.println("Pinguim nadando");

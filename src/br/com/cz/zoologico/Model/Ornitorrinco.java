@@ -6,6 +6,9 @@ import br.com.cz.zoologico.contract.IComportamentoPorOvos;
 
 public class Ornitorrinco extends Mamifero implements IComportamentoPorOvos, IComportamentoAquatico {
 
+    public Ornitorrinco() {
+
+    }
     @Override
     public void porOvo() {
         System.out.println("Ornitorrinco pos ovo");
