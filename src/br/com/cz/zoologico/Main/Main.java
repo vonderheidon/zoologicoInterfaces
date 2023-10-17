@@ -23,6 +23,8 @@ public class Main {
 
         Ornitorrinco ornitorrinco = new Ornitorrinco();
         ornitorrinco.porOvo(3);
-
+        ornitorrinco.correr();
+        ornitorrinco.nadar();
+        ornitorrinco.amamentar();
     }
 }
