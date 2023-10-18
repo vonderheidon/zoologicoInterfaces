@@ -1,11 +1,12 @@
 package br.com.cz.zoologico.Model;
 
 
+import br.com.cz.zoologico.contract.IComportamentoAndar;
 import br.com.cz.zoologico.contract.IComportamentoAquatico;
 import br.com.cz.zoologico.contract.IComportamentoPorOvos;
 import br.com.cz.zoologico.contract.IComportamentoTerrestre;
 
-public class Ornitorrinco extends Mamifero implements IComportamentoPorOvos, IComportamentoAquatico, IComportamentoTerrestre {
+public class Ornitorrinco extends Mamifero implements IComportamentoPorOvos, IComportamentoAquatico, IComportamentoAndar {
 
     public Ornitorrinco() {
 
@@ -29,22 +30,13 @@ public class Ornitorrinco extends Mamifero implements IComportamentoPorOvos, ICo
         System.out.println("Ornitorrinco nadando");
     }
     @Override
-    public void escalar() {
-        System.out.println("Ornitorrinco escalando");
+    public void andar() {
+        System.out.println("Ornitorrinco andando");
     }
     @Override
     public void correr() {
         System.out.println("Ornitorrinco correndo");
     }
-    @Override
-    public void rastejar() {
-        System.out.println("Ornitorrinco rastejando");
-    }
-    @Override
-    public void pular() {
-        System.out.println("Ornitorrinco pulando");
-    }
-
     @Override
     public void amamentar() {
         System.out.println("Ornitorrinco amamentando por suas glandulas mamarias.");
